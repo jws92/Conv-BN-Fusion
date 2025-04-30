@@ -301,8 +301,8 @@ def main():
 
 |Methods|Latency (bs=1)|Improved latency|Throughputs (bs=64)|Improved throughputs|
 |-------|--------------|----------------|-------------------|--------------------|
-|Normal|???|-|???|-|
-|Fusing ConvBN|???|???|???|???|
+|Normal|5.61 ms|-|606.75|-|
+|Fusing ConvBN|3.82 ms|**+31.91%**|610.40|**+0.6%**|
 
 
 ## References
