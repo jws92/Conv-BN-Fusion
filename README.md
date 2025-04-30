@@ -10,14 +10,14 @@ Implementation of fusion between convolution and batch normalization layer for s
 
 
 ## Fusing Conv-BN layers
-* The convolution layer is computed as follows:      
+* The convolution layer is computed as follows:   
 $$\hat x = x \cdot W_{conv} + B_{conv} \ …\ (1)$$   
 * $x$: input  
   $W_{conv}$: Conv weight  
   $B_{conv}$: Conv bias  
   $\hat x$: output  
 
-* Then, BN is computed as follows:
+* Then, BN is computed as follows:   
 $$\hat x = \gamma \dfrac{x - \mu} {\sqrt{\sigma ^ 2 + \epsilon}} + \beta \ …\ (2)$$
 * $x$: input  
   $\mu$: mean  
